@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (Debug\x64\) contains files shared from another project (GetProfiles_Callback_Measure.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  DllLoader.cpp
+  GetProfiles_Callback_Measure.cpp
+  InterfaceLLT_2.cpp
+  Generating Code...
+  GetProfiles_Callback_Measure.vcxproj -> C:\MicroEpsilon\SDK42\CPP_SDK+python_bindings\examples\bin_x64\Debug\GetProfiles_Callback_Measure.exe

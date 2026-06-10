@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\DllLoader.cpp" />
+    <ClCompile Include="GetProfiles_Callback_Measure.cpp" />
+    <ClCompile Include="..\..\InterfaceLLT_2.cpp" />
+    <ClCompile Include="MyScannerUtilities.cpp" />
+    <ClCompile Include="PlyUtilities.cpp" />
+    <ClCompile Include="ArduinoComm.cpp" />
+    <ClCompile Include="MyMetrologyEngine.cpp" />
+    <ClCompile Include="HyperME.cpp" />
+    <ClCompile Include="DataGrouper.cpp" />
+    <ClCompile Include="MetrologyFFT.cpp" />
+    <ClCompile Include="CSVUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduinoComm.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DllLoader.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="GetProfiles_Callback_Measure.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\InterfaceLLT_2.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScannerUtilities.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="PlyUtilities.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GetProfiles_Callback_Measure\resource.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMetrologyEngine.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperME.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="MetrologyFFT.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGrouper.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVUtils.h">
+      <Filter>hd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hd">
+      <UniqueIdentifier>{8194ba39-156e-4bbd-ae77-0e8545eb4c63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
