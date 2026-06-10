@@ -19,7 +19,7 @@ void CSVUtils::arrangeBatches(std::vector<float> area, std::vector<float> width,
 		gData.batches.push_back(b);
 	}
 }
-
+//sadasdsaddasd
 void CSVUtils::writeToCSV(std::vector<float> area, std::vector<float> width, int batchLength, bool hole) {
     this->arrangeBatches(area, width, batchLength);
 
